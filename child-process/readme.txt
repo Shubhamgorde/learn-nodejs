@@ -1,0 +1,5 @@
+- The child_process module provides the ability to spawn child processes.
+- By default, pipes for stdin, stdout, and stderr are established between the parent Node.js process and the spawned child. 
+- These pipes have limited (and platform-specific) capacity. 
+- The child_process.spawn() method spawns the child process asynchronously, without blocking the Node.js event loop. 
+- The child_process.spawnSync() function provides equivalent functionality in a synchronous manner that blocks the event loop until the spawned process either exits or is terminated.
